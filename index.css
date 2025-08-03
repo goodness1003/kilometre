@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(244, 244, 250);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.insert{
+    outline: none;
+}
+ .km-input h5{
+    color: rgb(100, 92, 214);
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+    background-image:linear-gradient( rgb(102, 102, 224), lightgreen);
+}
+.km-input{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: 170px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 70%;
+    height: 400px;
+    color: black;
+    background-image:linear-gradient( rgb(102, 102, 224), lightgreen);
+    display: block;
+    justify-content: center;
+}
+.km-input h4{
+    background-image:linear-gradient( rgb(102, 102, 224), lightgreen);
+    display: flex;
+    justify-content: center;
+}
+.km-input button{
+    padding: 15px;
+    border: none;
+    background-color:aquamarine;
+    
+}
+.km-input input{
+    border: none;
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+}
