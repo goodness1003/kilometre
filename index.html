@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>  
+    <div class="km-input">
+        <h5><marquee behavior="" direction="">--<-<-<@assignment by Okpoechi Goodness.______.</marquee></h5>
+        <h4>kilometre to metre</h4>
+        <input type="text" placeholder="Km" class="insert"> <br>
+    <button onclick="converttometre()">convert</button> <br>
+    <input type="text"  placeholder="M" class="convert">
+    </div>
+
+
+    <script>
+        let kilometreRate = 100
+        let kminput = document.querySelector(".insert")
+        let convert = document.querySelector(".convert")
+        
+        
+        function converttometre(){
+            convert.value = kilometreRate* Number(kminput.value);
+        }
+    </script>
+</body>
+</html>
